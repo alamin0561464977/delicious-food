@@ -1,0 +1,48 @@
+.headerBody{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5dedf21b7c131a3015fd5ad5/1575948055123-VLZ49JEXIYF8QMAABP6F/DSC04905-43_web.jpg?format=1500w');
+    height: 250px;
+    margin: 0 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    background-color: rgba(83, 58, 63, 0.5);
+    padding: 10px 100px;
+    border-radius: 20px;
+    text-align: center;
+}
+.header h1{
+    color: #fff;
+    margin-top: 0;
+}
+.styil{
+    font-size: 40px;
+    font-weight: 700;
+    color: crimson;
+}
+.header input{
+    text-decoration: none;
+    border: 0;
+    padding: 5px 12px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: rgb(41, 49, 49);
+    color: #fff;
+}
+.header button{
+    text-decoration: none;
+    border: 0;
+    padding: 5px 12px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: crimson;
+    color: #fff;
+}
+.header button:hover{
+    background-color: rgb(41, 49, 49);
+    color: crimson;
+}
