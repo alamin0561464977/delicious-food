@@ -7,9 +7,11 @@ const FoodCart = (props) => {
     return (
         <div className='foodCart'>
             <img src={strMealThumb} alt="" />
-            <h3>{strMeal}</h3>
-            <h5>Price: $5</h5>
-            <button>Details</button>
+            <div className='foodInfo'>
+                <h3>{strMeal}</h3>
+                <h5>Price: $5</h5>
+                <button>Details</button>
+            </div>
         </div>
     );
 };
