@@ -45,4 +45,13 @@
 .header button:hover{
     background-color: rgb(41, 49, 49);
     color: crimson;
+    cursor: pointer;
+}
+.foods{
+    background-color: rgb(179, 243, 243);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 15px;
+    gap: 15px;
+    padding: 20px;
 }

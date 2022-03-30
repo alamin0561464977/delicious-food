@@ -1,0 +1,12 @@
+.foodCart img{
+    width: 270px;
+    margin-left: 22px;
+}
+.foodCart{
+    background-color: rgb(154, 178, 192);
+    
+}
+.foodCart img:hover{
+    width: 275px;
+    rotate: 40px;
+}

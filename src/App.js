@@ -5,8 +5,13 @@ import Header from './components/Header/Header';
 function App() {
   return (
     <div>
-      <Nav></Nav>
-      <Header></Header>
+      <div>
+        <Nav></Nav>
+        <Header></Header>
+      </div>
+      <div>
+
+      </div>
     </div>
   );
 }
